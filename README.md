@@ -47,10 +47,10 @@ A critical note to its suitability as a benchmark can be found in.
 The dataset holds information of the Australian New South Wales Electricity Market, whose prices are affected by supply and demand. Each sample, characterized by attributes such as day of week, time stamp, market demand etc., refers to a period of 30 minutes and the class label identifies the relative change (higher or lower) compared to the last 24 hours.
 We used the normalized version as it also can be found [here] (http://moa.cms.waikato.ac.nz/datasets/).
 
-#### [Forest Cover Type] (https://github.com/vlosing/driftDatasets/tree/master/realWorld/covType)  ([original source] (https://archive.ics.uci.edu/ml/datasets/Covertype))
+#### [Forest Cover Type] (https://github.com/vlosing/driftDatasets/tree/master/realWorld/covType) ([original source] (https://archive.ics.uci.edu/ml/datasets/Covertype))
 Assigns cartographic variables such as elevation, slope, soil type, ... of 30 x 30 meter cells to different forest cover types. Only forests with minimal human-caused disturbances were used, so that resulting forest cover types are more a result of ecological processes. It is often used as a benchmark for drift algorithms. We used the normalized version as it also can be found [here] (http://moa.cms.waikato.ac.nz/datasets/).
 
-#### [Poker Hand] (https://github.com/vlosing/driftDatasets/tree/master/realWorld/poker))([original source] (https://archive.ics.uci.edu/ml/datasets/Poker+Hand))
+#### [Poker Hand] (https://github.com/vlosing/driftDatasets/tree/master/realWorld/poker) ([original source] (https://archive.ics.uci.edu/ml/datasets/Poker+Hand))
 One million randomly drawn poker hands are represented by five cards each encoded with its suit and rank. The class is the resulting poker hand itself such as one pair, full house and so forth.
 This dataset has in its original form no drift, since the poker hand definitions do not change and the instances are randomly generated. However, we used the version presented in [PAW] (https://users.ics.aalto.fi/jesse/papers/article2_SAC.pdf), in which virtual drift is introduced via sorting the instances by rank and suit. Duplicate hands were also removed.
 We used the normalized version as it also can be found [here] (http://moa.cms.waikato.ac.nz/datasets/).
