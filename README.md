@@ -55,10 +55,10 @@ One million randomly drawn poker hands are represented by five cards each encode
 This dataset has in its original form no drift, since the poker hand definitions do not change and the instances are randomly generated. However, we used the version presented in [PAW] (https://users.ics.aalto.fi/jesse/papers/article2_SAC.pdf), in which virtual drift is introduced via sorting the instances by rank and suit. Duplicate hands were also removed.
 We used the normalized version as it also can be found [here] (http://moa.cms.waikato.ac.nz/datasets/).
 
-#### [Outdoor Objects] (https://github.com/vlosing/driftDatasets/tree/master/realWorld/outdoor)
+#### [Outdoor Objects] (https://github.com/vlosing/driftDatasets/tree/master/realWorld/outdoor) (Own dataset: Whe used in publication please cite http://ieeexplore.ieee.org/document/7280610/)
 We obtained this dataset from images recorded by a mobile in a garden environment. The task is to classify 40 different objects, each approached ten times under varying lighting conditions
 affecting the color based representation. Each approach consists of 10 images and is represented in temporal order within the dataset. The objects are encoded in a normalized 21-dimensional RG-Chromaticity histogram.
 
-#### [Rialto Bridge Timelapse] (https://github.com/vlosing/driftDatasets/tree/master/realWorld/rialto)  
+#### [Rialto Bridge Timelapse] (https://github.com/vlosing/driftDatasets/tree/master/realWorld/rialto) (Own dataset: Whe used in publication please cite http://ieeexplore.ieee.org/document/7837853/) 
 Ten of the colorful buildings next to the famous Rialto bridge in Venice are encoded in a normalized 27-dimensional RGB histogram. We obtained the images from time-lapse videos captured by a webcam with fixed position. The recordings cover 20 consecutive days during may-june 2016. Continuously changing weather and lighting conditions affect the representation.
 We generated the labels by manually masking the corresponding buildings and excluded overnight recordings since they were too dark for being useful.  
