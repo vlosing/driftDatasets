@@ -2,21 +2,21 @@
 
 ## Artificial:
 
-#### [SEA Concepts] [original source](https://github.com/vlosing/driftDatasets/tree/master/artificial/sea)
+#### [SEA Concepts](https://github.com/vlosing/driftDatasets/tree/master/artificial/sea)
 This dataset consists of 50000 instances with three attributes of which only two are relevant.
 The two class decision boundary is given by f<sub>1</sub> + f<sub>2</sub> = b, where f<sub>1</sub>, f<sub>2</sub> are the two relevant features and b a predefined threshold.
 Abrupt drift is simulated with four different concepts, by changing the value of b every 12500 samples.
 Also included are 10\% of noise.
 
-#### [Rotating Hyperplane] (https://github.com/vlosing/driftDatasets/tree/master/artificial/hyperplane)
+#### [Rotating Hyperplane](https://github.com/vlosing/driftDatasets/tree/master/artificial/hyperplane)
 A hyperplane in d-dimensional space is continuously changed in position and orientation continuous addition.
 We used the Random Hyperplane generator in MOA with the same parametrization as in [PAW] (https://users.ics.aalto.fi/jesse/papers/article2_SAC.pdf) (10 dimensions, 2 classes, delta=0.001).
 
-#### [Moving RBF] (https://github.com/vlosing/driftDatasets/tree/master/artificial/rbf)
+#### [Moving RBF](https://github.com/vlosing/driftDatasets/tree/master/artificial/rbf)
 Gaussian distributions with random initial positions, weights and standard deviations are moved with constant speed v in d-dimensional space. The weight controls the partitioning of the examples among the Gaussians.
 We used the Random RBF generator in MOA with the same parametrization as in [PAW] (https://users.ics.aalto.fi/jesse/papers/article2_SAC.pdf) (10 dimensions, 50 Gaussians, 5 classes, v=0.001).
 
-#### [Interchanging RBF] (https://github.com/vlosing/driftDatasets/tree/master/artificial/rbf) (Own dataset: When used in publication please cite http://ieeexplore.ieee.org/document/7837853/) 
+#### [Interchanging RBF](https://github.com/vlosing/driftDatasets/tree/master/artificial/rbf) (Own dataset: When used in publication please cite http://ieeexplore.ieee.org/document/7837853/) 
 Fifteen Gaussians with random covariance matrices are replacing each other every 3000 samples. Thereby, the number of Gaussians switching their position increases each time by one
 until all are simultaneously changing their location. This allows to evaluate an algorithm in the context of abrupt drift with increasing strength. Altogether 67 abrupt drifts are occurring within this dataset.
 
