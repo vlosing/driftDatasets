@@ -2,7 +2,7 @@
 
 ## Artificial:
 
-#### [SEA Concepts] (https://github.com/vlosing/driftDatasets/tree/master/artificial/sea)
+#### [SEA Concepts] [original source](https://github.com/vlosing/driftDatasets/tree/master/artificial/sea)
 This dataset consists of 50000 instances with three attributes of which only two are relevant.
 The two class decision boundary is given by f<sub>1</sub> + f<sub>2</sub> = b, where f<sub>1</sub>, f<sub>2</sub> are the two relevant features and b a predefined threshold.
 Abrupt drift is simulated with four different concepts, by changing the value of b every 12500 samples.
