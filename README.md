@@ -10,7 +10,7 @@ Also included are 10\% of noise.
 
 #### [Rotating Hyperplane](https://github.com/vlosing/driftDatasets/tree/master/artificial/hyperplane)
 A hyperplane in d-dimensional space is continuously changed in position and orientation continuous addition.
-We used the Random Hyperplane generator in MOA with the same parametrization as in [PAW] (https://users.ics.aalto.fi/jesse/papers/article2_SAC.pdf) (10 dimensions, 2 classes, delta=0.001).
+We used the Random Hyperplane generator in MOA with the same parametrization as in [PAW](https://users.ics.aalto.fi/jesse/papers/article2_SAC.pdf) (10 dimensions, 2 classes, delta=0.001).
 
 #### [Moving RBF](https://github.com/vlosing/driftDatasets/tree/master/artificial/rbf)
 Gaussian distributions with random initial positions, weights and standard deviations are moved with constant speed v in d-dimensional space. The weight controls the partitioning of the examples among the Gaussians.
@@ -45,10 +45,10 @@ The dataset contains 18159 instances with an imbalance towards no rain (69%).
 This problem is often used as a benchmark for concept drift classification. Initially described by Harris et al. it was used thereafter for several performance comparisons. 
 A critical note to its suitability as a benchmark can be found in.
 The dataset holds information of the Australian New South Wales Electricity Market, whose prices are affected by supply and demand. Each sample, characterized by attributes such as day of week, time stamp, market demand etc., refers to a period of 30 minutes and the class label identifies the relative change (higher or lower) compared to the last 24 hours.
-We used the normalized version as it also can be found [here] (http://moa.cms.waikato.ac.nz/datasets/).
+We used the normalized version as it also can be found [here](http://moa.cms.waikato.ac.nz/datasets/).
 
 #### [Forest Cover Type](https://github.com/vlosing/driftDatasets/tree/master/realWorld/covType) ([original source] (https://archive.ics.uci.edu/ml/datasets/Covertype))
-Assigns cartographic variables such as elevation, slope, soil type, ... of 30 x 30 meter cells to different forest cover types. Only forests with minimal human-caused disturbances were used, so that resulting forest cover types are more a result of ecological processes. It is often used as a benchmark for drift algorithms. We used the normalized version as it also can be found [here] (http://moa.cms.waikato.ac.nz/datasets/).
+Assigns cartographic variables such as elevation, slope, soil type, ... of 30 x 30 meter cells to different forest cover types. Only forests with minimal human-caused disturbances were used, so that resulting forest cover types are more a result of ecological processes. It is often used as a benchmark for drift algorithms. We used the normalized version as it also can be found [here](http://moa.cms.waikato.ac.nz/datasets/).
 
 #### [Poker Hand](https://github.com/vlosing/driftDatasets/tree/master/realWorld/poker) ([original source] (https://archive.ics.uci.edu/ml/datasets/Poker+Hand))
 One million randomly drawn poker hands are represented by five cards each encoded with its suit and rank. The class is the resulting poker hand itself such as one pair, full house and so forth.
